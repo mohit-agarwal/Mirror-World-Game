@@ -1,0 +1,43 @@
+Mirror World
+------------
+
+
+The Mirror World consists of projectors,mirrors and blocks.
+Mirrors reflect light, projectors emit light and blocks absord light.
+
+-----------------------------------------------------------------------
+
+To run the code, first compile it using the following command:
+
+g++ Assignment1.cpp -lglut -lGL -lGLU
+
+Once the file is compiled,run it using the command:
+
+./a.out
+
+------------------------------------------------------------------------
+
+Execution
+
+Mirror World consists of 4 modes:
+Static mode : 
+Random Walk Mode : Use the z key enter and exit the random walk mode.
+Light Transport Mode : Use the t key enter and exit this mode.
+Gaze at Cursor Mode : Use the g key enter and exit this mode.
+
+Following are the controls:
+
+Esc key or 'q' key : Exit the mirror World. It saves the world configuration in backup file.
+'p' key : Insert a projector.
+'m' key : Insert a mirror.
+'b' key : Insert a block.
+'c' key : Select an object. Repeatedly clicking c changes the selection through all the objects.
+'r' key : Rotate an object in clockwise direction.
+'l' key : Rotate an object in anti-clockwise direction.
+'f' key : Make any subsequent translation/rotation faster.
+'s' key : Make any subsequent translation/rotation slower.
+'z' key : Enter and exit the random walk mode.
+'t' key : Enter and exit the light transport mode.
+'g' key : Enter and exit the gaze at cursor mode.
+Arrow keys : Translate the objects in different directions.
+
